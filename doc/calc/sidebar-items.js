@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["drawing","evaluation_menu","math"],"struct":["CalculatorState"]};

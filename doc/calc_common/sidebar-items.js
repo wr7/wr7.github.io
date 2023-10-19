@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["NUM_BUTTON_CHARS","NUM_CHARS","NUM_ECHARS","NUM_META_BUTTONS"],"enum":["Character","ExtendedCharacter","GetButton","GetDrawableCharacter","MetaButton"],"mod":["prelude","util"],"struct":["Button","Point"],"union":["DrawableCharacter"]};
