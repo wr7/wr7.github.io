@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["Color","DrawingContext","RectRegion","WWindInitState","WWindInstance","WWindState","Window"]};

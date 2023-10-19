@@ -1,0 +1,83 @@
+html {
+  background-color: #a9a9a9;
+  font-family: Verdana, sans-serif;
+}
+
+body {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.gallary {
+  writing-mode: vertical-lr;
+}
+
+.img, .video {
+  display: inline-block;
+  border: solid medium black;
+  margin: 1ch;
+  vertical-align: top;
+  width: 30ch;
+  float: left;
+  writing-mode: initial;
+}
+
+.img > * , .video > * {
+  width: 100%;
+  vertical-align: top;
+}
+
+.img > p , .video > p {
+  margin: 0px;
+  padding: 1ch;
+  width: calc(100% - 2ch);
+  border-top: solid medium black;
+}
+
+h1::after {
+  width: 3ch;
+  display: inline-block;
+  content: "";
+}
+
+h1 {
+  border-bottom: solid 2px black;
+  padding-bottom: 0.2em;
+  width: fit-content;
+  font-weight: normal;
+}
+
+code {
+  background-color: rgba(127, 127, 127, 0.5);
+  border-radius: 0.3em;
+  padding-left: 0.15em;
+  padding-right: 0.15em;
+}
+
+a {
+  color: #d8d8d8;
+  text-decoration: none;
+}
+
+a.back {
+  position: absolute;
+  left: 1ch;
+  top: 1ch;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul,ol {
+  margin-block-start: 0.5em;
+  margin-left: 1ch;
+  border-left: solid medium black;
+  background-color: rgba(127, 127, 127, 0.5);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 4ch;
+  border-radius: 5px;
+}
