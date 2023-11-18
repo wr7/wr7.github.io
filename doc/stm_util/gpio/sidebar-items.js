@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["AlternateFunction","GPIOPort","PinSpeed","PinType","PullUpPullDownResistor"],"struct":["GPIOConfiguration","GPIOPin"]};

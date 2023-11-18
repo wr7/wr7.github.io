@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["i2c_send","initialize_i2c2"],"struct":["I2C2","I2CFrame"]};
