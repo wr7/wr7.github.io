@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["GPIOA","GPIO_REG_SIZE","I2C2","RCC","RCC_APB1ENR","RCC_APB1RSTR","TIM6"]};
